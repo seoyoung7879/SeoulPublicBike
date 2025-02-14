@@ -78,7 +78,7 @@ deck = pdk.Deck(
 )
 
 # HTML 파일로 저장
-output_file = r'출퇴근관련\조서영\html\주중_근무시간_링크_시각화.html'
+output_file = r'html\주중_근무시간_링크_시각화.html'
 deck.to_html(output_file, notebook_display=False)
 
 print("시각화가 완료되었습니다. HTML 파일이 저장되었습니다.")

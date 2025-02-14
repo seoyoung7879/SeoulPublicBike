@@ -4,7 +4,7 @@ import folium
 import os
 
 # 1. 데이터 불러오기
-bike_station_rate_df = pd.read_csv(r"조서영\data\unique_filtered_bike_station_data.csv")
+bike_station_rate_df = pd.read_csv(r"data\unique_filtered_bike_station_data.csv")
 
 # 2. GeoDataFrame 변환 (geometry 열을 이용)
 bike_station_rate_gdf = gpd.GeoDataFrame(

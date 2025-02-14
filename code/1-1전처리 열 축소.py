@@ -10,6 +10,6 @@ columns_to_keep = [
 filtered_df = bike_station_rate_df[columns_to_keep]
 
 # 3. 데이터 저장
-filtered_df.to_csv(r"출퇴근관련\조서영\filtered_bike_station_data.csv", index=False)
+filtered_df.to_csv(r"data\filtered_bike_station_data.csv", index=False)
 
 print("필요한 열만 남긴 데이터가 CSV 파일로 저장되었습니다.")

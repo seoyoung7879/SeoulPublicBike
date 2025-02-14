@@ -27,4 +27,4 @@ busstop_count = busstop_count.rename(columns={"index_right": "격자_ID"})
 gdf_grid = gdf_grid.merge(busstop_count, left_index=True, right_on="격자_ID", how="left").fillna(0)
 
 # 6. 버스 정류장 개수 데이터를 CSV 파일로 저장
-busstop_count.to_csv(r"출퇴근관련\조서영\격자별 버스정류장 개수.csv", index=False)
+busstop_count.to_csv(r"data\격자별 버스정류장 개수.csv", index=False)
